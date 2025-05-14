@@ -10,5 +10,8 @@ The community-driven approach ensures continuous improvement and innovation in t
 
 summary=summarize(text,max_length=100,min_length=10,do_sample=False)
 
+print('Original size of Text:',len(text))
 
 print (summary[0]['summary_text'])
+
+print('Summarized size of Text:',len(summary))
